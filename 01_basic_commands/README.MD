@@ -46,7 +46,7 @@ docker run -it --rm --name ubuntu-container ubuntu:latest bash
 
 ## Exposição de portas
 
-### Algumas imagens de container Docker possuem portas previamente abertas para o processo do container. Para expôr elas, é preciso realizar o redirecionamento para uma porta do Docker Host.
+> Algumas imagens de container Docker possuem portas previamente abertas para o processo do container. Para expôr elas, é preciso realizar o redirecionamento para uma porta do Docker Host.
 
 ````bash
 # "-p/--publish" -> efetua o redirecionamento da porta do container (inacessível) para uma porta disponível na máquina (Docker Host).
@@ -145,7 +145,7 @@ docker run -it --rm --name ubuntu-container ubuntu:latest bash
 ````
 
 ## Port Exposure
-### Some Docker container images have ports pre-opened for the container process. To expose them, you need to redirect them to a Docker Host port.
+> Some Docker container images have ports pre-opened for the container process. To expose them, you need to redirect them to a Docker Host port.
 
 ````bash
 # "-p/--publish" -> forwards the container port (inaccessible) to a port available on the machine (Docker Host).

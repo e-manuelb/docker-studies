@@ -143,7 +143,7 @@ docker network connect NETWORK_NAME CONTAINER_NAME
 docker network connect mynetwork ubuntu3
 ```
 
-## Container acessando a máquina
+## Container accessing the host machine
 
 ```bash
 # Connect the container to the specified network
